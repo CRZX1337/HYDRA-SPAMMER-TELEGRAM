@@ -21,6 +21,9 @@
     <br>
     <br>
     <img src="https://github.com/CRZX1337/HYDRA-SPAMMER-TELEGRAM/blob/main/preview2.png" width="400" alt="Hydra-Spammer Preview Screenshot 2">
+    <br>
+    <br>
+    <img src="https://github.com/CRZX1337/HYDRA-SPAMMER-TELEGRAM/blob/main/preview3.png" width="400" alt="Hydra-Spammer Multi-Account Preview">
 </div>
 
 <hr>
