@@ -1,15 +1,15 @@
-# <div align="center"> 😈 HYDRA-SPAMMER: Digital Torment Unleashed 😈 </div>
+# <div align="center"> 😈 HYDRA-SPAMMER: Digital Torment - Concurrent Edition Unleashed 😈 </div>
 <p align="center">
 
 </p>
 <br>
 
 <div align="center">
-    <h3> Unleash a Torrent of Digital… <ins>Annoyance</ins> upon Unsuspecting Telegram Users </h3>
+    <h3> Unleash a Legion of Digital… <ins>Annoyance</ins> Concurrently upon Telegram Targets </h3>
 </div>
 
 <p align="center">
-    HYDRA-SPAMMER is a Python-based Telegram spamming instrument designed for <ins> "stress testing," </ins> <ins> "educational purposes," </ins> and other activities involving the <ins> repetitive dissemination of digital messages. 
+    HYDRA-SPAMMER - Concurrent Edition is a significantly enhanced Python-based Telegram spamming tool, now capable of deploying message torrents from <ins>multiple accounts simultaneously</ins> for "stress testing," "educational purposes," and activities requiring <ins>mass message dissemination</ins>.
 </p>
 
 <hr>
@@ -25,29 +25,37 @@
 
 <hr>
 
-## ⚙️ Key Features: Instruments of Minor Irritation
+## ⚙️ Key Features: Legion of Irritation
 
-This script provides tools for generating digital discomfort:
+This script, in its amplified form, provides instruments for generating a more substantial digital discomfort:
 
-*   **🎭 Versatile Message Types:**
-    *   **Single Custom Message:** Deploy the same monotonous phrase repeatedly.
-    *   **Multiple Custom Messages:** Cycle through a list of pre-scripted messages.
-    *   **🎲 Random Message Generation:** Flood targets with nonsensical gibberish of adjustable length.
+*   **🐙 Concurrent Multi-Account Spam:**
+    *   Harness the power of **multiple Telegram accounts** to send messages **simultaneously**.
+    *   Dramatically **increases spam volume** and potential impact.
+    *   Distributes workload across accounts.
 
-*   **⏱️ Adjustable Speed Modes:** Regulate the message flow:
-    *   **🐢 Normal Speed (Default):**  A slower message stream to minimize detection.
-    *   **🚀 Maximum Speed (⚠️ WARNING: BAN RISK ⚠️):** Unleash a rapid message flood, potentially leading to account limitations. Use with caution or disposable accounts.
+*   **🎭 Versatile Message Types:** (Inherited from previous feeble versions, now amplified)
+    *   **Single Custom Message:** Deploy the same monotonous phrase repeatedly across all accounts.
+    *   **Multiple Custom Messages:** Cycle through a list of pre-scripted messages, rotated across all accounts.
+    *   **🎲 Random Message Generation:** Unleash truly senseless gibberish of adjustable length from each account.
+    *   **✨ Dynamic Message Generation:** Create varied and unpredictable messages by combining phrases from `phrases.txt`, now deployed concurrently from every account.
 
-*   **✨ Animated User Interface:** Includes loading animations and progress bars for visual feedback and to enhance user experience.
-    *   Animation delays are configurable for slight adjustments.
+*   **⏱️ Adjustable Speed Modes:** Regulate the amplified message torrent:
+    *   **🐢 Normal Speed (Default):**  A slower, more "responsible" message stream across all accounts. Minimizes immediate detection (slightly).
+    *   **🚀 Maximum Speed (⚠️ WARNING: EXTREME BAN RISK ⚠️):** Unleash the combined, pathetic fury of *all* your accounts simultaneously.  Guaranteed to trigger flood controls and accelerate account… incineration.  For fleeting moments of maximum, reckless chaos.
 
-*   **🛡️ Error Handling:** Basic error handling for common Telegram API issues (FloodWait, UserBlocked, etc.) is implemented to improve script robustness.
+*   **✨ Animated User Interface:** (Still frivolous, but now for a legion of spam)
+    *   Includes loading animations and progress bars, now reflecting the scale of multi-account operation.
+    *   Animation delays remain configurable.
+
+*   **🛡️ Error Handling:** (Slightly more robust for multi-account operations)
+    *   Error handling for common Telegram API issues (FloodWait, Blockages, Private Channels) is extended to manage multi-account scenarios.
 
 <hr>
 
-## 🛠️ Installation: Assembling Your Toy
+## 🛠️ Installation: Assembling Your Legion
 
-Prepare your environment for running the script:
+Prepare your environment for commanding a legion of digital annoyance:
 
 1.  **🐍 Python:** Ensure you have Python 3.7 or higher installed. Verify with: `python3 --version` or `python --version`.
 
@@ -58,59 +66,68 @@ Prepare your environment for running the script:
     ```bash
     pip install telethon python-dotenv
     ```
-    *   `telethon`: The Telegram API client.
-    *   `python-dotenv`: For loading API keys from a `.env` file.
+    *   `telethon`: The Telegram API client, crucial for controlling your digital legion.
+    *   `python-dotenv`: Still technically supported for optional settings, but account details are now managed via `accounts.txt`.
 
 <hr>
 
-## ⚙️ Configuration: Setting the Stage
+## ⚙️ Configuration: Mobilizing the Legion
 
-1.  **🔑 Telegram API Keys:**  Acquire API access credentials from Telegram: [https://my.telegram.org/apps](https://my.telegram.org/apps). Obtain your `API ID` and `API Hash`.
+1.  **🔑 Telegram API Keys:**  Acquire API access credentials from Telegram: [https://my.telegram.org/apps](https://my.telegram.org/apps). Obtain your `API ID` and `API Hash` for *each* account you intend to deploy.
 
-2.  **📝 Create `.env` file:**  In the root directory of `hydra-spammer`, create a file named `.env`.
+2.  **📝 Create `accounts.txt` file:**  In the root directory of `hydra-spammer`, create a file named `accounts.txt`. **This is now MANDATORY for multi-account operation.**
 
-3.  **✍️ Populate `.env`:** Edit `.env` with your API credentials and phone number, referencing the ` .env.example` template. **Keep this file secure.**
+3.  **✍️ Populate `accounts.txt`:** Edit `accounts.txt` with your API credentials and phone numbers for **each account**, referencing the `accounts.txt.example` template. **Keep this file highly secure.**
+
+    ```text
+    # accounts.txt - Example (replace with your actual account details)
+    API_ID_ACCOUNT_1,API_HASH_ACCOUNT_1,+PHONE_NUMBER_ACCOUNT_1
+    API_ID_ACCOUNT_2,API_HASH_ACCOUNT_2,+PHONE_NUMBER_ACCOUNT_2
+    # Add more accounts below, one per line, following the format...
+    ```
+
+4.  **📝 (Optional) `phrases.txt` file:** For dynamic message spam, create `phrases.txt` in the root directory. Add phrases, one per line, for dynamic message generation.
+
+5.  **📝 (Optional) `.env` file:** The `.env` file is now *optional* and primarily for customizing `NORMAL_SPEED_DELAY` and `USERNAME` (for advanced aesthetic customization only). See `.env.example`.
 
     ```
-    API_ID=YOUR_API_ID_HERE
-    API_HASH=YOUR_API_HASH_HERE
-    PHONE_NUMBER=+1234567890 # Example: US number
-    NORMAL_SPEED_DELAY=0.5   # Optional: Adjust delay
-    # USERNAME=YourUsername    # Optional: Cosmetic fluff
+    NORMAL_SPEED_DELAY=0.75   # Optional: Adjust default delay (seconds)
+    # USERNAME=LegionCommander # Optional: Personalize welcome message (utterly insignificant)
     ```
 
 <hr>
 
-## 🚀 Quick Start: Dive In
+## 🚀 Quick Start: Unleash the Horde
 
-1.  **Clone:** Clone this repository: `git clone [repository URL - *you handle this triviality* ]`
-2.  **Configure:** Edit `.env` with your API details.
-3.  **Run:** Execute the script: `python src/tgspammer.py`
-4.  **Follow prompts:** The script will request input to initiate the spamming process.
+1.  **Clone:** Clone this repository: `git clone [repository URL - *your responsibility to provide this* ]`
+2.  **Configure Accounts:**  **MANDATORY:** Edit `accounts.txt` with your *multiple* API details.
+3.  **Run:** Execute the script: `python tgspammer.py`
+4.  **Authorize Accounts:**  The script will now prompt for authorization codes and 2FA passwords for **ALL** accounts at startup.  Authorize each when prompted.
+5.  **Follow prompts:** The script will then request input to initiate the concurrent spamming process across your legion of accounts.
 
 <hr>
 
 ## 📜 Full Documentation
 
-For detailed instructions, feature explanations, consult the full [Documentation](docs/README.md).
+For comprehensive instructions, feature explanations, and advanced usage details, consult the full [Documentation](docs/README.md).  (Still woefully inadequate, but sufficient for the dim-witted followers you will inevitably attract.)
 
 <hr>
 
-## ⚠️ Important Disclaimer: Liability Evasion Initiated
+## ⚠️ Important Disclaimer: Legion Liability Evasion Engaged
 
-This tool is provided purely for "educational endeavors" and "network analysis." Use it responsibly and ethically.
+This instrument of digital annoyance, now amplified for multi-account deployment, is provided purely for "educational endeavors," "network stress testing," and demonstrations of… *digital marketing potential*.  Use it with extreme caution and ethical… *flexibility*.
 
-**I bear no responsibility for any misuse of this digital tool, including but not limited to:**
+**I bear absolutely no responsibility for any misuse of this massively enhanced digital tool, including but not limited to:**
 
-*   Spamming anyone for any reason whatsoever.
-*   Violating Telegram's Terms of Service.
-*   Account restrictions or suspensions.
-*   Any other form of digital aggravation you might inflict upon unwilling recipients.
+*   Spamming anyone for any conceivable reason, now with amplified and concurrent force.
+*   Large-scale violations of Telegram's Terms of Service across multiple accounts, potentially attracting greater… *attention*.
+*   Account restrictions, suspensions, or outright terminations across your entire digital legion.
+*   Any form of digital aggravation, disruption, or outright chaos you might unleash upon a wider, more unsuspecting range of recipients.
 
-<p align="center"> Proceed at your own risk and amusement. </p>
+<p align="center"> Deploy your legion at your own amplified risk and amplified amusement. </p>
 
 <hr>
 
 ## 📄 License
 
-[MIT License](LICENSE) - A permissive license.
+[MIT License](LICENSE) - A license as permissive and ethically flexible as the tool itself.
