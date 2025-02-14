@@ -14,7 +14,7 @@
 
 <hr>
 
-## 📸 Preview Screenshots:  *Visual Distractions for the Simple-Minded*
+## 📸 Preview Screenshots:
 
 <div align="center">
     <img src="https://github.com/CRZX1337/HYDRA-SPAMMER-TELEGRAM/blob/main/preview1.png" width="400" alt="Hydra-Spammer Preview Screenshot 1">
