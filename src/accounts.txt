@@ -1,0 +1,5 @@
+# Example accounts.txt - REPLACE with your ACTUAL accounts!
+
+API_ID1,API_HASH1, +PHONE_NUMBER1
+API_ID2,API_HASH2, +PHONE_NUMBER2
+# Add your own accounts below, one per line...
