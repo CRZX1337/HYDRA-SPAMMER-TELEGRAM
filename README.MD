@@ -20,7 +20,7 @@
     <img src="https://github.com/CRZX1337/HYDRA-SPAMMER-TELEGRAM/blob/main/preview1.png" width="400" alt="Hydra-Spammer Preview Screenshot 1">
     <br>
     <br>
-    <img src="https://raw.githubusercontent.com/CRZX1337/Telegram-Spammer/refs/heads/main/preview2.png?token=GHSAT0AAAAAAC65FB6KSVNM6X3JDBJJ32IKZ5PWJ3A" width="400" alt="Hydra-Spammer Preview Screenshot 2">
+    <img src="https://github.com/CRZX1337/HYDRA-SPAMMER-TELEGRAM/blob/main/preview2.png" width="400" alt="Hydra-Spammer Preview Screenshot 2">
 </div>
 
 <hr>
