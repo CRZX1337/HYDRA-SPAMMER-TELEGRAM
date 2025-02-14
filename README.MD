@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-    HYDRA-SPAMMER is a Python-based Telegram spamming instrument designed for <ins> "stress testing," </ins> <ins> "educational purposes," </ins> and other activities involving the <ins> repetitive dissemination of digital messages. </ins> (The <ins> irony </ins> drips, does it not?)
+    HYDRA-SPAMMER is a Python-based Telegram spamming instrument designed for <ins> "stress testing," </ins> <ins> "educational purposes," </ins> and other activities involving the <ins> repetitive dissemination of digital messages. 
 </p>
 
 <hr>
