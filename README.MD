@@ -1,4 +1,6 @@
-# <div align="center"> 😈 HYDRA-SPAMMER: Digital Torment - Concurrent Edition Unleashed 😈 </div>
+<div align="center">
+    <img src="logo.jpg" alt="Logo">
+</div>
 <p align="center">
 
 </p>
